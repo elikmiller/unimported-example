@@ -1,0 +1,21 @@
+{
+  "ignoreUnresolved": [],
+  "ignoreUnimported": [],
+  "ignoreUnused": [],
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "**/*.stories.{js,jsx,ts,tsx}",
+    "**/*.tests.{js,jsx,ts,tsx}",
+    "**/*.test.{js,jsx,ts,tsx}",
+    "**/*.spec.{js,jsx,ts,tsx}",
+    "**/tests/**",
+    "**/__tests__/**",
+    "**/*.d.ts"
+  ],
+  "moduleDirectory": ["node_modules", ".", "./src", "./src/components"],
+  "entry": "./src/index.js",
+  "rootDir": ".",
+  "aliases": {
+    "src/*": ["./src", "./src/*"]
+  }
+}
